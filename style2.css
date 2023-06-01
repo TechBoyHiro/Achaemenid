@@ -1,0 +1,53 @@
+.banner {
+  background-image: url('fashion_background.png');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.overlay {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 1245px) {
+  .brand {
+    font-size: 200px;
+    font-weight: 500;
+    margin-top: -80px;
+  }
+  .brandsub{
+    margin-top: -30px;
+  }
+}
+
+@media only screen and (max-width: 1244px) {
+  .brand {
+    margin-top: -50px;
+  }
+
+  .brandsub{
+    margin-top: -15px;
+  }
+}
+
+.coming{
+  color: #F6E7CE;
+}
+
+.coming:hover {
+  background-color: #F6E7CE;
+  color: black;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 40px;
+}
+
+footer {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+}
